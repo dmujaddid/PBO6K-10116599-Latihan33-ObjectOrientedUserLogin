@@ -5,6 +5,8 @@
  */
 package pbo6k.pkg10116599.latihan33.objectorienteduserlogin;
 
+import java.util.Scanner;
+
 /**
  *
  * @author eka
@@ -16,6 +18,16 @@ public class PBO6K10116599Latihan33ObjectOrientedUserLogin {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        String uName = "RizkiAdam";
+        String pWord = "terbaikselalu";
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("Masukkan Username = ");
+        uName = scan.next();
+        
+        System.out.print("Masukkan Password = ");
+        uName = scan.next();
     }
     
 }
